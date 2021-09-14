@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import { primary, greenLine, title, span } from '../../constants/color';
+import { primary, greenLine, background, title, span, white } from '../../constants/color';
 
 export const styles = StyleSheet.create({
   container: {
@@ -7,16 +7,19 @@ export const styles = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'center',
     padding: 25,
+    backgroundColor: background
   },
   
   contentInput: {
     marginBottom: 15,
-    elevation: 3
+    elevation: 3,
+    backgroundColor: white,
   },
   
   button: {
     backgroundColor: primary,
-    elevation: 3
+    elevation: 3,
+    marginBottom: 20,
   },
 
   title: {
@@ -34,7 +37,22 @@ export const styles = StyleSheet.create({
   },
 
   legend: {
-    marginTop: 20,
+    marginBottom: 20,
     color: span,
+  },
+
+  buttonSignUp: {
+    backgroundColor: white,
+    elevation: 3,
+  },
+  viewLogo: {
+    alignItems: 'center',
+  },
+  logo: {
+    width: 150,
+    height: 200,
+  },
+  contentLogin: {
+    flex: 1
   }
 });

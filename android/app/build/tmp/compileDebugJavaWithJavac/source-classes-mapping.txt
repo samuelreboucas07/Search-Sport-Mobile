@@ -1,0 +1,14 @@
+com/encontre_esportes/ReactNativeFlipper.java
+ com.encontre_esportes.ReactNativeFlipper
+ com.encontre_esportes.ReactNativeFlipper$1
+ com.encontre_esportes.ReactNativeFlipper$2
+ com.encontre_esportes.ReactNativeFlipper$2$1
+com/encontre_esportes/MainApplication.java
+ com.encontre_esportes.MainApplication
+ com.encontre_esportes.MainApplication$1
+com/encontre_esportes/MainActivity.java
+ com.encontre_esportes.MainActivity
+com/encontre_esportes/BuildConfig.java
+ com.encontre_esportes.BuildConfig
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

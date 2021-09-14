@@ -1,0 +1,145 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.encontre_esportes"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/debug/AndroidManifest.xml:6:5-64
+12-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/debug/AndroidManifest.xml:6:22-62
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/debug/AndroidManifest.xml:7:5-80
+13-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/debug/AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/debug/AndroidManifest.xml:8:5-81
+14-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/debug/AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/debug/AndroidManifest.xml:9:5-79
+15-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/debug/AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+16-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/debug/AndroidManifest.xml:10:5-85
+16-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/debug/AndroidManifest.xml:10:22-82
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+17-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/debug/AndroidManifest.xml:11:5-77
+17-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/debug/AndroidManifest.xml:11:22-74
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/main/AndroidManifest.xml:4:5-67
+18-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/main/AndroidManifest.xml:4:22-64
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Include required permissions for Google Maps API to run. -->
+19-->[com.facebook.flipper:flipper:0.93.0] /home/samuel/.gradle/caches/transforms-3/8cf55bdce16a002612f05f30a64a017a/transformed/jetified-flipper-0.93.0/AndroidManifest.xml:16:5-76
+19-->[com.facebook.flipper:flipper:0.93.0] /home/samuel/.gradle/caches/transforms-3/8cf55bdce16a002612f05f30a64a017a/transformed/jetified-flipper-0.93.0/AndroidManifest.xml:16:22-73
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.android.gms:play-services-maps:17.0.0] /home/samuel/.gradle/caches/transforms-3/a200cf77db3a5c88e1dfdbfa31b5050b/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+20-->[com.google.android.gms:play-services-maps:17.0.0] /home/samuel/.gradle/caches/transforms-3/a200cf77db3a5c88e1dfdbfa31b5050b/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:17.0.0] /home/samuel/.gradle/caches/transforms-3/a200cf77db3a5c88e1dfdbfa31b5050b/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:17.0.0] /home/samuel/.gradle/caches/transforms-3/a200cf77db3a5c88e1dfdbfa31b5050b/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:17.0.0] /home/samuel/.gradle/caches/transforms-3/a200cf77db3a5c88e1dfdbfa31b5050b/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+25
+26    <application
+26-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/main/AndroidManifest.xml:6:5-27:19
+27        android:name="com.encontre_esportes.MainApplication"
+27-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/main/AndroidManifest.xml:7:7-38
+28        android:allowBackup="false"
+28-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/main/AndroidManifest.xml:11:7-34
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.6.0] /home/samuel/.gradle/caches/transforms-3/d9b71328e8ba86dc125344804cb6eb44/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/main/AndroidManifest.xml:9:7-41
+32        android:label="@string/app_name"
+32-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/main/AndroidManifest.xml:8:7-39
+33        android:requestLegacyExternalStorage="true"
+33-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/debug/AndroidManifest.xml:17:9-52
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/main/AndroidManifest.xml:10:7-52
+35        android:theme="@style/AppTheme"
+35-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/main/AndroidManifest.xml:12:7-38
+36        android:usesCleartextTraffic="true" >
+36-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/debug/AndroidManifest.xml:14:9-44
+37        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+37-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/debug/AndroidManifest.xml:18:9-86
+37-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/debug/AndroidManifest.xml:18:19-83
+38        <activity
+38-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/main/AndroidManifest.xml:13:7-23:18
+39            android:name="com.encontre_esportes.MainActivity"
+39-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/main/AndroidManifest.xml:14:9-37
+40            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+40-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/main/AndroidManifest.xml:16:9-86
+41            android:label="@string/app_name"
+41-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/main/AndroidManifest.xml:15:9-41
+42            android:launchMode="singleTask"
+42-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/main/AndroidManifest.xml:17:9-40
+43            android:windowSoftInputMode="adjustResize" >
+43-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/main/AndroidManifest.xml:18:9-51
+44            <intent-filter>
+44-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/main/AndroidManifest.xml:19:9-22:25
+45                <action android:name="android.intent.action.MAIN" />
+45-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/main/AndroidManifest.xml:20:13-65
+45-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/main/AndroidManifest.xml:20:21-62
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/main/AndroidManifest.xml:21:13-73
+47-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/main/AndroidManifest.xml:21:23-70
+48            </intent-filter>
+49        </activity>
+50
+51        <meta-data
+51-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/main/AndroidManifest.xml:24:8-26:64
+52            android:name="com.google.android.geo.API_KEY"
+52-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/main/AndroidManifest.xml:25:7-52
+53            android:value="AIzaSyAGxAIDGbtx377qqeJY4xGA2TaNg2hBdY4" />
+53-->/home/samuel/Repositórios/Search-Sport-Mobile/android/app/src/main/AndroidManifest.xml:26:7-62
+54
+55        <provider
+55-->[:react-native-image-picker] /home/samuel/Repositórios/Search-Sport-Mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+56            android:name="com.imagepicker.FileProvider"
+56-->[:react-native-image-picker] /home/samuel/Repositórios/Search-Sport-Mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-56
+57            android:authorities="com.encontre_esportes.provider"
+57-->[:react-native-image-picker] /home/samuel/Repositórios/Search-Sport-Mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-60
+58            android:exported="false"
+58-->[:react-native-image-picker] /home/samuel/Repositórios/Search-Sport-Mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+59            android:grantUriPermissions="true" >
+59-->[:react-native-image-picker] /home/samuel/Repositórios/Search-Sport-Mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+60            <meta-data
+60-->[:react-native-image-picker] /home/samuel/Repositórios/Search-Sport-Mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:58
+61                android:name="android.support.FILE_PROVIDER_PATHS"
+61-->[:react-native-image-picker] /home/samuel/Repositórios/Search-Sport-Mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+62                android:resource="@xml/provider_paths" />
+62-->[:react-native-image-picker] /home/samuel/Repositórios/Search-Sport-Mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-55
+63        </provider> <!-- Needs to be explicitly declared on P+ -->
+64        <uses-library
+64-->[com.google.android.gms:play-services-maps:17.0.0] /home/samuel/.gradle/caches/transforms-3/a200cf77db3a5c88e1dfdbfa31b5050b/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+65            android:name="org.apache.http.legacy"
+65-->[com.google.android.gms:play-services-maps:17.0.0] /home/samuel/.gradle/caches/transforms-3/a200cf77db3a5c88e1dfdbfa31b5050b/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+66            android:required="false" />
+66-->[com.google.android.gms:play-services-maps:17.0.0] /home/samuel/.gradle/caches/transforms-3/a200cf77db3a5c88e1dfdbfa31b5050b/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+67
+68        <activity
+68-->[com.google.android.gms:play-services-base:17.0.0] /home/samuel/.gradle/caches/transforms-3/c099f34bb597d03b4b670af755f47f98/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+69            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+69-->[com.google.android.gms:play-services-base:17.0.0] /home/samuel/.gradle/caches/transforms-3/c099f34bb597d03b4b670af755f47f98/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+70            android:exported="false"
+70-->[com.google.android.gms:play-services-base:17.0.0] /home/samuel/.gradle/caches/transforms-3/c099f34bb597d03b4b670af755f47f98/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+71-->[com.google.android.gms:play-services-base:17.0.0] /home/samuel/.gradle/caches/transforms-3/c099f34bb597d03b4b670af755f47f98/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+72
+73        <meta-data
+73-->[com.google.android.gms:play-services-basement:17.0.0] /home/samuel/.gradle/caches/transforms-3/d2aab5a9146bf1ef884137d70b855134/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+74            android:name="com.google.android.gms.version"
+74-->[com.google.android.gms:play-services-basement:17.0.0] /home/samuel/.gradle/caches/transforms-3/d2aab5a9146bf1ef884137d70b855134/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+75            android:value="@integer/google_play_services_version" />
+75-->[com.google.android.gms:play-services-basement:17.0.0] /home/samuel/.gradle/caches/transforms-3/d2aab5a9146bf1ef884137d70b855134/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+76    </application>
+77
+78</manifest>
