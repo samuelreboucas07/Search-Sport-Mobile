@@ -4,7 +4,7 @@
 
 * [Funcionamento](#funcionamento)
 
-* [Frameworks e Bibliotecas](#frameworks-e-bibliotecas)
+* [Principais tecnologias](#principais-tecnologias)
 
 * [Como usar](#como-usar)
 
@@ -36,7 +36,7 @@ Esta funcionalidade permite que os usuários vejam as informações das partidas
 https://user-images.githubusercontent.com/20310532/133942671-e646f3d2-636d-41c7-a765-5821ef10454a.mp4
 
 
-## Frameworks e Bibliotecas
+## Principais tecnologias
 
 * [React-native](https://reactnative.dev/)
 * [Context API](https://pt-br.reactjs.org/docs/context.html)
