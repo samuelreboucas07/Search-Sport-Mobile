@@ -29,11 +29,6 @@ const Toast = ({ message, visible, type, onClose }: IProps) => {
       visible={visible}
       style={{ backgroundColor: handleColor(type) }}
       onDismiss={onClose}
-      // action={{
-      //   label: 'Fechar',
-      //   color: '#fff',
-      //   onPress: () => console.log("eeee"),
-      // }}
     >
       {message}
     </Snackbar>
