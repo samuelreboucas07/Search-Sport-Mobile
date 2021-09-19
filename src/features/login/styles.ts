@@ -49,8 +49,8 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
   },
   logo: {
-    width: 150,
-    height: 200,
+    width: 220,
+    height: 220,
   },
   contentLogin: {
     flex: 1
