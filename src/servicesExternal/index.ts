@@ -6,4 +6,5 @@ const getLocation = async (longitude: number, latitude: number) => {
 };
 
 
+
 export default getLocation;
